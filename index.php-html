@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<title>Chancletas</title>
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<header>
+<h1>chancletas chillonas</h1>
+
+<ul>
+<li><a class = 'active' href = 'index.php'>Home</a></li>
+<li><a href = 'datalogger'>Datalogger</a></li>
+<li><a href = 'index.php'>Prueba1</a></li>
+<li><a href = 'index.html'>Index.html</a></li>
+<li style = 'float: right'><a href = 'index.php'>About</a></li>
+</ul>
+
+</header>
+</html>
