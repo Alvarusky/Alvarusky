@@ -67,13 +67,10 @@ header h1 {
 
 <ul>
 <li><a class = 'active' href = 'index.php'>Home</a></li>
-<li><a href = 'datalogger'>Datalogger</a></li>
-<li><a href = 'DefaultPage.html'>Default Page</a></li>
-<li><a href = 'index.html'>Index.html</a></li>
-<li style = 'float: right'><a href = 'index.php'>About</a></li>
+<li><a href = 'data'>Datalogger</a></li>
+<li><a href = 'jelou'>Default Page</a></li>
+<li><a href = 'index'>Index.html</a></li>
+<li style = 'float: right'><a href = 'About'>About</a></li>
 </ul>
 
 </header>
-
-
-
