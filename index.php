@@ -11,15 +11,10 @@ header {
 body, html {
   margin:0;
   padding: 0;
+  background-color:  #36393e;
 }
 
-ul {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
+#navbar {
   overflow: hidden;
   background-color: #2b2d31; //#4a4c51;
 //Código para ponerle sombra a la navigation bar.
@@ -28,11 +23,8 @@ ul {
    box-shadow: 0 8px 6px -6px #999;
 }
 
-li {
+#navbar a {
   float: left;
-}
-
-li a {
   margin 0;
   display: block;
   color: white;
@@ -44,12 +36,22 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#navbar a:hover {
   background-color: #4a4c51;
 }
 
-.active {
+#navbar .active {
   background-color: green;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 header h1 {
@@ -63,14 +65,34 @@ header h1 {
 
 </style>
 <header>
-<h1>chancletas chillonas</h1>
+<h1>Chancletas Chillonas</h1>
 
-<ul>
-<li><a class = 'active' href = 'index.php'>Home</a></li>
-<li><a href = 'data'>Datalogger</a></li>
-<li><a href = 'default.php'>Default Page</a></li>
-<li><a href = 'index'>Index.html</a></li>
-<li style = 'float: right'><a href = 'about.php'>About</a></li>
-</ul>
+<div id= 'navbar'>
+<a class = 'active' href = 'index.php'>Home</a></li>
+<a href = 'data'>Datalogger</a>
+<a href = 'default.php'>Default Page</a>
+<a href = 'index'>Index.html</a>
+<a style = 'float:right' href = 'about.php'>About</a>
+</div>
 
 </header>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stickyNavBar()};
+
+// Get the navbar
+var navbar = document.getElementById('navbar');
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyNavBar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky')
+  } else {
+    navbar.classList.remove('sticky');
+  }
+}
+</script>
+</html>

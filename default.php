@@ -9,23 +9,24 @@ header {
 body, html {
   margin:0;
   padding: 0;
+  background-color: #36393e;
 }
 ul {
-  /*position: -webkit-sticky;
-  position: sticky;
-  top: 0;*/
+  //ponerle sombra a la navigation bar
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+   box-shadow: 0 8px 6px -6px #999;
+
   list-style-type: none;
   margin: 0px;
   padding: 0;
   overflow: hidden;
-  background-color: #2b2d31; //#4a4c51;
-//Código para ponerle sombra a la navigation bar.
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
+  background-color: #2b2d31;
+
+//Código para que la navigation bar no se mueva
   position: fixed;
   top: 0;
   width: 100%
-  box-shadow: 0 8px 6px -6px #999;
 
 }
 li {
@@ -58,7 +59,6 @@ header h1 {
 }
 </style>
 <header>
-<h1>chancletas chillonas</h1>
 
 <ul>
 <li><a class = 'active' href = 'index.php'>Home</a></li>
