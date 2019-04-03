@@ -68,9 +68,9 @@ header h1 {
 <ul>
 <li><a class = 'active' href = 'index.php'>Home</a></li>
 <li><a href = 'data'>Datalogger</a></li>
-<li><a href = 'jelou'>Default Page</a></li>
+<li><a href = 'default.php'>Default Page</a></li>
 <li><a href = 'index'>Index.html</a></li>
-<li style = 'float: right'><a href = 'About'>About</a></li>
+<li style = 'float: right'><a href = 'about.php'>About</a></li>
 </ul>
 
 </header>
