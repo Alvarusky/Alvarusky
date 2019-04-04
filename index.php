@@ -71,7 +71,7 @@ header h1 {
 <a class = 'active' href = 'index.php'>Home</a></li>
 <a href = 'data'>Datalogger</a>
 <a href = 'default.php'>Default Page</a>
-<a href = 'index'>Index.html</a>
+<a href = 'login.php'>Index.html</a>
 <a style = 'float:right' href = 'about.php'>About</a>
 </div>
 
