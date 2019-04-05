@@ -15,6 +15,7 @@ body, html {
 }
 
 #navbar {
+  width: 100%;
   overflow: hidden;
   background-color: #2b2d31; //#4a4c51;
 //Código para ponerle sombra a la navigation bar.
@@ -55,7 +56,9 @@ body, html {
 }
 
 header h1 {
- margin: 0;
+  margin: 20px;
+ padding-left:23%;
+ position: fixed;
 // line-height:100px;
  text-align:center;
  font-family: 'Indie Flower', cursive;
@@ -63,9 +66,17 @@ header h1 {
  color: #ffffff; // #a0a4ac;
 }
 
+img {
+  float:left;
+  width: 180px;
+  height: 180px;
+  margin: 0px;
+  padding-left: 10%;
+}
+
 </style>
 <header>
-<h1>Chancletas Chillonas</h1>
+<img src = 'images/logo.png'><h1>Chancletas Chillonas</h1>
 
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a></li>
