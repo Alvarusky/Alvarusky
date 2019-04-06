@@ -19,7 +19,7 @@ ul {
 
   list-style-type: none;
   margin: 0px;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
   background-color: #2b2d31;
 
@@ -31,13 +31,14 @@ ul {
 }
 li {
   float: left;
+  padding: 0;
 }
-li a {
-  margin 0;
+ li a {
+  margin: 0px;
   display: block;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 25px !important;
   font-size: 150%;
   font-family: 'Indie Flower';
   text-decoration: none;
@@ -57,9 +58,9 @@ header h1 {
  font-size: 700%;
  color: #ffffff; // #a0a4ac;
 }
+
 </style>
 <header>
-
 <ul>
 <li><a class = 'active' href = 'index.php'>Home</a></li>
 <li><a href = 'datalogger'>Datalogger</a></li>

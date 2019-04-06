@@ -56,30 +56,31 @@ body, html {
 }
 
 header h1 {
-  margin: 20px;
- padding-left:23%;
- position: fixed;
-// line-height:100px;
+ margin: 15px;
+ padding-left:5%;
  text-align:center;
- font-family: 'Indie Flower', cursive;
+ font-family: 'Indie Flower';
  font-size: 700%;
  color: #ffffff; // #a0a4ac;
 }
 
 img {
+  position: absolute;
   float:left;
   width: 180px;
+  top: 0px;
   height: 180px;
-  margin: 0px;
-  padding-left: 10%;
+  padding-left: 100px;
 }
 
 </style>
 <header>
-<img src = 'images/logo.png'><h1>Chancletas Chillonas</h1>
-
+<a href="index.php" style = "text-decoration: none">
+  <img src = 'images/logo.png'>
+  <h1>Chancletas Chillonas</h1>
+</a>
 <div id= 'navbar'>
-<a class = 'active' href = 'index.php'>Home</a></li>
+<a class = 'active' href = 'index.php'>Home</a>
 <a href = 'data'>Datalogger</a>
 <a href = 'default.php'>Default Page</a>
 <a href = 'login.php'>Index.html</a>

@@ -1,16 +1,57 @@
 <html>
 <link href = 'default.css' rel = 'stylesheet' type = 'text/css'>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <title>About</title>
+<style>
+#body{
+    margin: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+  }
+  body p {
+    color: white;
+    display: inline;
+    line-height: 40px;
+  }
+#link {
+  display: inline-block;
+}
+
+#link a{
+    color: #7272e5;
+    text-decoration: none;
+    background-color: none;
+  }
+
+#link a:hover {
+  background-color: #36393e;
+  color: #e5e5e5;
+  text-decoration: underline;
+
+}
+
+</style>
 <header>
 
-<div id = 'navBar'<ul>
+<ul style = 'font-size: 150%'>
 <li><a href = 'index.php'>Home</a></li>
 <li><a href = 'datalogger'>Datalogger</a></li>
-<li><a href = 'DefaultPage.html'>Default Page</a></li>
+<li><a href = 'default.php'>Default Page</a></li>
 <li><a href = 'index.html'>Index.html</a></li>
-<li style = 'float: right'><a class = 'active' href = 'index.php'>About</a></li>
+<li style = 'float: right'><a class = 'active' href = 'about.php'>About</a></li>
 </ul>
-</div>
 
 </header>
+<h1 style = 'font-size: 700%; margin-top: 60px;'>About</h1>
+<div id = "body">
+<body>
+  <br>
+  <br>
+  <p>This website is created by the best web developer in the world, Alvaro on March 2019. </p>
+  <p>It's a LAMP server, hosted on a RaspberryPi Zero W and you can find the source code on </p>
+  <p><div id = "link"><a href = 'https://github.com/Alvarusky/html' target = 'blank'>Github.</a></div></p>
+  <br>
+  <p>I did this website because I wanted to learn how Internet works and host my programs such as "MirabalPass" or "mediaDHT11v3" on the web. Se nota q es la leche. </p>
+</body>
+</div>

@@ -6,7 +6,7 @@ body, html {
   padding: 0;
   background-color: #36393e;
 }
-#navBar {
+ul {
   //ponerle sombra a la navigation bar
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
@@ -14,6 +14,7 @@ body, html {
 
   list-style-type: none;
   margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #2b2d31;
 
@@ -23,33 +24,32 @@ body, html {
   width: 100%
 
 }
-#navBar li {
+li {
   float: left;
-
 }
-
-#navBar a {
-  margin 0;
+header a {
+  margin: 0px;
   display: block;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
+  font-size: 150%;
   font-family: 'Indie Flower';
-  font-size: 200px;
   text-decoration: none;
 }
 /* Change the link color to #111 (black) on hover */
-#navBar a:hover {
+a:hover {
   background-color: #4a4c51;
 }
-#navBar .active {
+.active {
   background-color: green;
 }
-header h1 {
+h1 {
  margin: 0;
+ margin-top: 30px;
 // line-height:100px;
  text-align:center;
  font-family: 'Indie Flower', cursive;
- font-size: 700%;
+ font-size: 700px;
  color: #ffffff; // #a0a4ac;
 }
