@@ -84,7 +84,7 @@ img {
 <a href = 'data'>Datalogger</a>
 <a href = 'default.php'>Default Page</a>
 <a href = 'login.php'>Index.html</a>
-<a style = 'float:right' href = 'about.php'>About</a>
+<a style = 'float:right' href = 'about/'>About</a>
 </div>
 
 </header>
