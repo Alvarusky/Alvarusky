@@ -46,11 +46,11 @@
 <header>
 
 <ul style = 'font-size: 150%'>
-<li><a href = 'index.php'>Home</a></li>
+<li><a href = '/index.php'>Home</a></li>
 <li><a href = 'datalogger'>Datalogger</a></li>
 <li><a href = 'default.php'>Default Page</a></li>
-<li><a href = 'index.html'>Index.html</a></li>
-<li style = 'float: right'><a class = 'active' href = 'about.php'>About</a></li>
+<li><a href = '/index.html'>Index.html</a></li>
+<li style = 'float: right'><a class = 'active' href = '#'>About</a></li>
 </ul>
 
 </header>
@@ -64,6 +64,6 @@
   <p><div id = "link"><a href = 'https://github.com/Alvarusky/html' target = 'blank'>Github.</a></div></p>
   <br>
   <p>I did this website because I wanted to learn how Internet works and host my programs such as "MirabalPass" or "mediaDHT11v3" on the web.</p>
-  <p><div id = "vwa"><a href = 'test1/'> Se nota q es la leche.</a></div></p>
+  <p><div id = "vwa"><a href = '/test1/'> Se nota q es la leche.</a></div></p>
 </body>
 </div>
