@@ -48,7 +48,7 @@ a:hover {
   background-color: #4a4c51;
 }
 .active {
-  background-color: green;
+  background-color: #6666ff;
 }
 header h1 {
  margin: 0;

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>Chancletas</title>
+<title>DemiChanclas</title>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Laila:600" rel="stylesheet">
 <style>
 
 header {
   background-color:  #36393e;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 body, html {
-  margin:0;
+  margin: 0;
   padding: 0;
   background-color:  #36393e;
 }
@@ -42,7 +46,7 @@ body, html {
 }
 
 #navbar .active {
-  background-color: green;
+  background-color:  #6666ff;
 }
 
 .sticky {
@@ -72,6 +76,32 @@ img {
   height: 180px;
   padding-left: 100px;
 }
+#pass {
+  margin-left: 13%;
+  margin-top: 20px;
+  font-family: 'Raleway';
+  font-size: 160%;
+  color: white;
+}
+#pass pre{
+  display: inline;
+  padding-left: 15px;
+  font-family: 'Raleway';
+}
+
+#pass p{
+  display: inline-block;
+  font-size: 110%;
+  padding-top: 0px;
+}
+
+.mpass{
+  margin-top: 45px;
+  margin-left: 12%;
+  color: #1bbe1b;
+  font-family: 'Laila';
+  font-size: 400%;
+}
 
 </style>
 <header>
@@ -88,6 +118,21 @@ img {
 </div>
 
 </header>
+<body>
+  <h1 class="mpass">MirabalPass</h1>
+  <div id = 'pass'>
+  <p><b> v2 = </b></p><pre style = 'display: inline' id = 'v2'></pre>
+  <p><b> &emsp;&ensp;&ensp;v3 = </b></p><pre id = 'v3'></pre>
+  <br>
+  <p><b> v4 = </b></p><pre id = 'v4'></pre>
+  <p><b> &emsp;&ensp;&ensp;v5 = </b></p><pre id = 'v5'></pre>
+  <br>
+  <p><b> v7 = </b></p><pre id = 'v7'></pre>
+  <p><b> &emsp;&ensp;&ensp;v8 = </b></p><pre id = 'v8'></pre>
+  </div>
+</body>
+<br>
+<br><br>
 <script>
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyNavBar()};
@@ -105,6 +150,31 @@ function stickyNavBar() {
   } else {
     navbar.classList.remove('sticky');
   }
+}
+
+mirabalPass();
+
+function mirabalPass() {
+
+  var date = new Date();
+  var day = date.getDate();
+  var month = date.getMonth() + 1;
+  var v2, v3, v4, v5, v7, v8;
+
+  calc = (200*day)+(3*month);
+  v2 = 20000 + calc;
+  v3 = 30000 + calc;
+  v4 = 40000 + calc;
+  v5 = 50000 + calc;
+  v7 = 70000 + calc;
+  v8 = 80000 + calc;
+
+  document.getElementById('v2').innerHTML = v2;
+  document.getElementById('v3').innerHTML = v3;
+  document.getElementById('v4').innerHTML = v4;
+  document.getElementById('v5').innerHTML = v5;
+  document.getElementById('v7').innerHTML = v7;
+  document.getElementById('v8').innerHTML = v8;
 }
 </script>
 </html>
