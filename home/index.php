@@ -1,3 +1,10 @@
+<?php
+include "config.php";
+
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: /home');
+}
 <!DOCTYPE html>
 <html>
 <title>DemiChanclas</title>
@@ -96,7 +103,7 @@ img {
 }
 
 .mpass{
-  margin-top: 45px;
+  margin-top: 45  px;
   margin-left: 12%;
   color: #1bbe1b;
   font-family: 'Laila';
@@ -106,15 +113,15 @@ img {
 </style>
 <header>
 <a href="index.php" style = "text-decoration: none">
-  <img src = 'images/logo.png'>
+  <img src = '/images/logo.png'>
   <h1>Chancletas Chillonas</h1>
 </a>
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
 <a href = 'data'>Datalogger</a>
-<a href = 'default.php'>Default Page</a>
+<a href = '/default/default.php'>Default Page</a>
 <a href = 'login.php'>Index.html</a>
-<a style = 'float:right' href = 'about/'>About</a>
+<a style = 'float:right' href = '/about'>About</a>
 </div>
 
 </header>

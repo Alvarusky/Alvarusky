@@ -62,11 +62,11 @@ header h1 {
 </style>
 <header>
 <ul>
-<li><a class = 'active' href = 'index.php'>Home</a></li>
-<li><a href = 'datalogger'>Datalogger</a></li>
-<li><a href = 'DefaultPage.html'>Default Page</a></li>
-<li><a href = 'index.html'>Index.html</a></li>
-<li style = 'float: right'><a href = 'index.php'>About</a></li>
+<li><a class = 'active' href = '/home'>Home</a></li>
+<li><a href = '#'>Datalogger</a></li>
+<li><a href = '#'>Default Page</a></li>
+<li><a href = '#'>Index.html</a></li>
+<li style = 'float: right'><a href = '/about'>About</a></li>
 </ul>
 
 </header>
