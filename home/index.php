@@ -1,10 +1,11 @@
 <?php
-include "config.php";
-
-// Check user login or not
-if(!isset($_SESSION['uname'])){
+session_start();
+if(empty($_SESSION['uname']))
+{
     header('Location: /home');
+    exit;
 }
+?>
 <!DOCTYPE html>
 <html>
 <title>DemiChanclas</title>
