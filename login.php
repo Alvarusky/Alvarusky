@@ -17,6 +17,7 @@
 <?php
 include "config.php";
 
+
 if(isset($_POST['but_submit'])){
 
     $uname = mysqli_real_escape_string($con,$_POST['txt_uname']);
@@ -31,8 +32,10 @@ if(isset($_POST['but_submit'])){
         $count = $row['cntUser'];
 
         if($count > 0){
-            $_SESSION['uname'] = $uname;
-            header('Location: /home/index.php');
+	    session_start();
+            $_SESSION['uname'] = true;
+            header('Location: /home');
+
         }else{
             echo "Invalid username and password";
         }

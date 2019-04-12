@@ -1,9 +1,6 @@
 <?php
-session_start();
-if(empty($_SESSION['uname']))
-{
-    header('Location: /home');
-    exit;
+if(isset($_SESSION['uname'])){ //if login in session is not set
+    header("Location: /login.php");
 }
 ?>
 <!DOCTYPE html>
