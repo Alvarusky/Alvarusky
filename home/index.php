@@ -1,8 +1,4 @@
-<?php
-if(!isset($_SESSION['uname'])){ //if login in session is not set
-    header("Location: /login.php");
-}
-?>
+
 <!DOCTYPE html>
 <html>
 <title>DemiChanclas</title>
