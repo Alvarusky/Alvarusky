@@ -1,6 +1,6 @@
 <html>
 <header>
-<tyle type = 'text/css' src = '/home/home.css'
+<body>
 <div class="container">
     <form method="post" action="">
         <div id="div_login">
@@ -17,9 +17,9 @@
         </div>
     </form>
 </div>
+</body>
 </header>
 </html>
-
 <?php
 include "config.php";
 
