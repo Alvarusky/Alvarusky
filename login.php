@@ -157,7 +157,7 @@ if(isset($_POST['but_submit'])){
             header('Location: /home');
 
         }else{
-            echo "Invalid username and password";
+            echo "";
         }
 
     }
