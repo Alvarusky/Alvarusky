@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> f33a1597d15a6036ba2ed0d0c471af7e1d2db9a2
 <!DOCTYPE html>
 <html>
 <title>DemiChanclas</title>

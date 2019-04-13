@@ -1,3 +1,6 @@
+<html>
+<header>
+<tyle type = 'text/css' src = '/home/home.css'
 <div class="container">
     <form method="post" action="">
         <div id="div_login">
@@ -14,6 +17,9 @@
         </div>
     </form>
 </div>
+</header>
+</html>
+
 <?php
 include "config.php";
 
