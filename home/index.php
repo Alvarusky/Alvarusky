@@ -1,15 +1,10 @@
-<?php
-if(!isset($_SESSION['uname'])){ //if login in session is not set
-    header("Location: /login.php");
-}
-?>
 <!DOCTYPE html>
 <html>
 <title>DemiChanclas</title>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Laila:600" rel="stylesheet">
-<style type = 'text/css' src = '/home/home.css'></style>
+<link rel = 'stylesheet' href = '/home/home.css'></style>
 <header>
 <a href="index.php" style = "text-decoration: none">
   <img src = '/images/logo.png'>
