@@ -1,7 +1,7 @@
 <?php
   /* Check if user is authenticated */
-session_start();
-if ($_SESSION["uname"]){
+//session_start();
+if ($_SESSION[$uname]){
     /* The user is logged in */
 }else{
     /* The user is not logged in */
