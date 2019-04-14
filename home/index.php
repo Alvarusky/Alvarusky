@@ -1,5 +1,5 @@
 <?php
-  include "/authentication.php";
+  require "/authentication.php";
  ?>
 <!DOCTYPE html>
 <html>
