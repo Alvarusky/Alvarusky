@@ -1,3 +1,12 @@
+<?php
+
+include "localhost/config.php";
+session_start();
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: /login.php');
+}
+?>
 <!DOCTYPE html>
 <html>
 <title>Chancletas</title>
