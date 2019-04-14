@@ -1,3 +1,4 @@
+mirabalPass();
 function mirabalPass() {
 
   var date = new Date();
