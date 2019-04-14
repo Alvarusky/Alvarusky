@@ -1,3 +1,12 @@
+<?php
+
+include "localhost/config.php";
+session_start();
+// Check user login or not
+if(isset($_SESSION['uname'])){
+    header('Location: /home');
+}
+?>
 <html>
 <style>
 
@@ -137,7 +146,6 @@ img {
 <?php
 include "config.php";
 
-
 if(isset($_POST['but_submit'])){
 
     $uname = mysqli_real_escape_string($con,$_POST['txt_uname']);
@@ -152,11 +160,12 @@ if(isset($_POST['but_submit'])){
         $count = $row['cntUser'];
 
         if($count > 0){
-            session_start($uname);
-            header('Location: /home');
-
+	   echo "ii";
+	    session_start();
+            $_SESSION['uname'] = $uname;
+	    header('Location: /home');
         }else{
-            echo "";
+            echo "Invalid username and password";
         }
 
     }
