@@ -152,8 +152,7 @@ if(isset($_POST['but_submit'])){
         $count = $row['cntUser'];
 
         if($count > 0){
-	    session_start();
-            $_SESSION['uname'] = true;
+
             header('Location: /home');
 
         }else{
