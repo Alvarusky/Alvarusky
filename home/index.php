@@ -9,11 +9,14 @@ if(!isset($_SESSION['uname'])){
  ?>
 <!DOCTYPE html>
 <html>
+<head>
 <title>DemiChanclas</title>
+<link rel="shortcut icon" href = "/images/logo.png"/>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Laila:600" rel="stylesheet">
 <link rel = 'stylesheet' href = '/home/home.css'></style>
+</head>
 <header>
 <a href="index.php" style = "text-decoration: none">
   <img src = '/images/logo.png'>

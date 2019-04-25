@@ -13,12 +13,15 @@ if(!isset($_SESSION['uname'])){
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <title>About</title>
 <style>
-#body{
+body{
+    padding-bottom: 10%;
+    }
+#text{
     margin: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 150%;
   }
-  body p {
+#text p {
     color: white;
     display: inline;
     line-height: 40px;
@@ -54,7 +57,7 @@ if(!isset($_SESSION['uname'])){
 </style>
 <header>
 
-<ul style = 'font-size: 150%'>
+<ul /*style = 'font-size: 150%'*/>
 <li><a href = '/home'>Home</a></li>
 <li><a href = 'datalogger'>Datalogger</a></li>
 <li><a href = '/default/default.php'>Default Page</a></li>
@@ -64,8 +67,8 @@ if(!isset($_SESSION['uname'])){
 
 </header>
 <h1 style = 'font-size: 700%; margin-top: 60px;'>About</h1>
-<div id = "body">
 <body>
+<div id= 'text'>
   <br>
   <br>
   <p>This website is created by the best web developer in the world, Alvaro on March 2019. </p>
@@ -74,5 +77,5 @@ if(!isset($_SESSION['uname'])){
   <br>
   <p>I did this website because I wanted to learn how Internet works and host my programs such as "MirabalPass" or "mediaDHT11v3" on the web.</p>
   <p><div id = "vwa"><a href = '/test1/'> Se nota q es la leche.</a></div></p>
-</body>
 </div>
+</body>

@@ -1,6 +1,6 @@
 
 header {
-  background-color:  #36393e;
+  background-color: #36393e;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -8,7 +8,8 @@ header {
 body, html {
   margin: 0;
   padding: 0;
-  background-color:  #36393e;
+  background-color: #36393e;
+  margin-bottom: 15%;
 }
 
 #navbar {
@@ -16,9 +17,9 @@ body, html {
   overflow: hidden;
   background-color: #2b2d31; //#4a4c51;
 //Código para ponerle sombra a la navigation bar.
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-   box-shadow: 0 8px 6px -6px #999;
+  -webkit-box-shadow: 0 8px 6px -6px white;
+  -moz-box-shadow: 0 8px 6px -6px white;
+   box-shadow: 0 8px 6px -6px white;
 }
 
 #navbar a {
@@ -59,6 +60,7 @@ header h1 {
  font-family: 'Indie Flower';
  font-size: 700%;
  color: #ffffff; // #a0a4ac;
+ text-shadow: 2px 2px 2px #191919;
 }
 
 img {
@@ -67,7 +69,8 @@ img {
   width: 180px;
   top: 0px;
   height: 180px;
-  padding-left: 100px;
+  padding-left: 5%;
+  max-width: 100%;
 }
 #pass {
   margin-left: 13%;
@@ -92,6 +95,7 @@ img {
   margin-top: 45  px;
   margin-left: 12%;
   color: #1bbe1b;
+  text-shadow: 2px 2px 2px #159815;
   font-family: 'Laila';
   font-size: 400%;
 }
