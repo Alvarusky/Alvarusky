@@ -27,6 +27,7 @@ if(!isset($_SESSION['uname'])){
 <a href = '#'>Datalogger</a>
 <a href = '#'>Mediav3</a>
 <a href = '#'>MirabalPass</a>
+<a href = '#'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
 </div>
 
