@@ -88,7 +88,7 @@ img {
 
 #txt_uname {
   color: white;
-  height: 7%;
+  height: 25%;
   width: 20%;
   border: 0;
   outline: 0;
@@ -97,7 +97,7 @@ img {
 }
 
 #but_submit {
-  height: 6%;
+  height: 20%;
   width: 20%;
   background: transparent;
   color: white;
