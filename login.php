@@ -115,9 +115,9 @@ img {
 </a>
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
-<a href = 'data'>Datalogger</a>
-<a href = '/default/default.php'>Default Page</a>
-<a href = 'login.php'>Index.html</a>
+<a href = '#'>Datalogger</a>
+<a href = '#'>MirabalPass</a>
+<a href = '#'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
 </div>
 
