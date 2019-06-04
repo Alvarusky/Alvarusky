@@ -25,7 +25,6 @@ if(!isset($_SESSION['uname'])){
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
 <a href = '#'>Datalogger</a>
-<a href = '#'>Mediav3</a>
 <a href = '#'>MirabalPass</a>
 <a href = '#'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
