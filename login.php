@@ -8,6 +8,7 @@ if(isset($_SESSION['uname'])){
 }
 ?>
 <html>
+<meta name="trustpilot-one-time-domain-verification-id" content="7955b301-8afc-4831-b6de-7950d4c8517b"/>
 <style>
 
 header {
