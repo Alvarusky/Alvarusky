@@ -60,7 +60,7 @@ body{
 <ul /*style = 'font-size: 150%'*/>
 <li><a href = '/home'>Home</a></li>
 <li><a href = '#'>Datalogger</a></li>
-<li><a href = '#'>MirabalPass</a></li>
+<li><a href = '/mirabalPass'>MirabalPass</a></li>
 <li><a href = '#'>BugNotes</a></li>
 <li style = 'float: right'><a class = 'active' href = '#'>About</a></li>
 </ul>
