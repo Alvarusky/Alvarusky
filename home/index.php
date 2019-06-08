@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 include "localhost/config.php";
 session_start();
@@ -18,10 +18,12 @@ if(!isset($_SESSION['uname'])){
 <link rel = 'stylesheet' href = '/home/home.css'></style>
 </head>
 <header>
+<!-- Title -->
 <a href="index.php" style = "text-decoration: none">
   <img src = '/images/logo.png'>
   <h1>Chancletas Chillonas</h1>
 </a>
+<!-- Navigation Bar -->
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
 <a href = '#'>Datalogger</a>
@@ -31,6 +33,7 @@ if(!isset($_SESSION['uname'])){
 </div>
 
 </header>
+<!-- MirabalPass codes -->
 <body>
   <h1 class="mpass">MirabalPass</h1>
   <div id = 'pass'>

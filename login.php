@@ -1,16 +1,13 @@
 <?php
-
+// Check if user is logged in or not
 include "localhost/config.php";
 session_start();
-// Check user login or not
+
 if(isset($_SESSION['uname'])){
     header('Location: /home');
 }
 ?>
 <html>
-<head>
-<meta name="trustpilot-one-time-domain-verification-id" content="7955b301-8afc-4831-b6de-7950d4c8517b"/>
-</head>
 <style>
 
 header {
@@ -106,16 +103,21 @@ img {
   color: white;
 }
 </style>
+
 <title>DemiChanclas</title>
+
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Laila:600" rel="stylesheet">
 <link rel = 'stylesheet' href = '/home/home.css'></style>
+
 <header>
+<!-- Title -->
 <a href="index.php" style = "text-decoration: none">
   <img src = '/images/logo.png'>
   <h1>Chancletas Chillonas</h1>
 </a>
+<!-- Navigation Bar -->
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
 <a href = '#'>Datalogger</a>
@@ -125,6 +127,7 @@ img {
 </div>
 
 </header>
+<!-- Login form -->
 <div class="container">
     <form method="post" action="">
         <div>
@@ -147,6 +150,7 @@ img {
 </body>
 </html>
 <?php
+// Connect to the database and check if the username and password are correct
 include "config.php";
 
 if(isset($_POST['but_submit'])){

@@ -56,7 +56,8 @@ body{
 
 </style>
 <header>
-
+<!-- Navigation Bar -->
+<div id = 'navbar'>
 <ul /*style = 'font-size: 150%'*/>
 <li><a href = '/home'>Home</a></li>
 <li><a href = '#'>Datalogger</a></li>
@@ -64,6 +65,7 @@ body{
 <li><a href = '#'>BugNotes</a></li>
 <li style = 'float: right'><a class = 'active' href = '#'>About</a></li>
 </ul>
+</div>
 
 </header>
 <h1 style = 'font-size: 700%; margin-top: 60px;'>About</h1>
@@ -79,3 +81,5 @@ body{
   <p><div id = "vwa"><a href = '/test1/'> Se nota q es la leche.</a></div></p>
 </div>
 </body>
+<script type ='text/javascript' src = '/default/stickyNavBar.js'></script>
+</html>

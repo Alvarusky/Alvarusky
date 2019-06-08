@@ -79,3 +79,13 @@ header h1 {
 </ul>
 
 </header>
+<script>
+// Stick the navbar to the top of the page
+window.onscroll = function(){Sticky()};
+var navbar = document.getElementById('navbar');
+
+function Sticky {
+  navbar.classList.add('sticky');
+}
+</script>
+</html>

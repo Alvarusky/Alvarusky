@@ -1,7 +1,7 @@
 <?php
+// Check if user is logged in
 include "localhost/config.php";
 session_start();
-// Check user login or not
 if(!isset($_SESSION['uname'])){
     header('Location: /login.php');
 }
@@ -14,13 +14,18 @@ if(!isset($_SESSION['uname'])){
   <title>MirabalPass</title>
 
   <header>
+    <!-- Navigation Bar -->
     <ul /*style = 'font-size: 150%'*/>
       <li><a href = '/home'>Home</a></li>
       <li><a href = '#'>Datalogger</a></li>
-      <li><a href = '#'>MirabalPass</a></li>
+      <li><a class = 'active' href = '#'>MirabalPass</a></li>
       <li><a href = '#'>BugNotes</a></li>
-      <li style = 'float: right'><a class = 'active' href = '#'>About</a></li>
+      <li style = 'float: right'><a href = '/about'>About</a></li>
     </ul>
-
   </header>
-  <h1 class = 'title'>MirabalPass</h1>
+
+  <h1 style = 'font-size: 500%'>MirabalPass</h1>
+  <br />
+  <br />
+  <!-- Mirabal codes for today -->
+  <div id = 'codes'>
