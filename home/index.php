@@ -11,6 +11,7 @@ if(!isset($_SESSION['uname'])){
 <html>
 <head>
 <title>DemiChanclas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href = "/images/logo.png"/>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
@@ -27,8 +28,7 @@ if(!isset($_SESSION['uname'])){
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
 <a href = '#'>Datalogger</a>
-<a href = '/mirabalPass'>MirabalPass</a>
-<a href = '#'>BugNotes</a>
+<a href = '/bugNotes'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
 </div>
 
@@ -68,5 +68,5 @@ function stickyNavBar() {
   }
 }
 </script>
-<script type = 'text/javascript' src = '/mirabalPass/mirabalPass.js'></script>
+<script type = 'text/javascript' src = '/bugNotes/mirabalPass.js'></script>
 </html>

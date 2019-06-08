@@ -8,6 +8,7 @@ if(!isset($_SESSION['uname'])){
 }
  ?>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale= 1">
 <link href = '/default/default.css' rel = 'stylesheet' type = 'text/css'>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
@@ -57,18 +58,15 @@ body{
 </style>
 <header>
 <!-- Navigation Bar -->
-<div id = 'navbar'>
-<ul /*style = 'font-size: 150%'*/>
+<ul>
 <li><a href = '/home'>Home</a></li>
 <li><a href = '#'>Datalogger</a></li>
-<li><a href = '/mirabalPass'>MirabalPass</a></li>
-<li><a href = '#'>BugNotes</a></li>
+<li><a href = '/bugNotes'>BugNotes</a></li>
 <li style = 'float: right'><a class = 'active' href = '#'>About</a></li>
 </ul>
-</div>
 
 </header>
-<h1 style = 'font-size: 700%; margin-top: 60px;'>About</h1>
+<h1 style = 'font-size: 700%; margin-top: 100px;'>About</h1>
 <body>
 <div id= 'text'>
   <br>
@@ -81,5 +79,4 @@ body{
   <p><div id = "vwa"><a href = '/test1/'> Se nota q es la leche.</a></div></p>
 </div>
 </body>
-<script type ='text/javascript' src = '/default/stickyNavBar.js'></script>
 </html>

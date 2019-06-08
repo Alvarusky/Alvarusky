@@ -80,12 +80,17 @@ header h1 {
 
 </header>
 <script>
-// Stick the navbar to the top of the page
-window.onscroll = function(){Sticky()};
-var navbar = document.getElementById('navbar');
+window.onscroll = function() {myFunction()};
 
-function Sticky {
-  navbar.classList.add('sticky');
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
 </script>
 </html>
