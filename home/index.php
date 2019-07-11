@@ -27,7 +27,7 @@ if(!isset($_SESSION['uname'])){
 <!-- Navigation Bar -->
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
-<a href = '#'>Datalogger</a>
+<a href = '/alvarusky.github.io'>WorldBook</a>
 <a href = '/bugNotes'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
 </div>
