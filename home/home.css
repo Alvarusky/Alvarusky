@@ -67,7 +67,8 @@ img {
   width: 180px;
   top: 0px;
   height: 180px;
-  padding-left: 100px;
+  padding-left: 5%;
+  max-width: 100%;
 }
 #pass {
   margin-left: 13%;
