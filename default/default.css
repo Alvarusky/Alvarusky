@@ -12,17 +12,15 @@ ul {
   -moz-box-shadow: 0 8px 6px -6px #999;
    box-shadow: 0 8px 6px -6px #999;
 
+  margin: 0;
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
   overflow: hidden;
   background-color: #2b2d31;
 
-//Código para que la navigation bar no se mueva
-  position: fixed;
+  width: 100%;
   top: 0;
-  width: 100%
-
+  position: fixed;
 }
 li {
   float: left;
@@ -32,7 +30,7 @@ header a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   font-size: 150%;
   font-family: 'Indie Flower';
   text-decoration: none;
@@ -47,9 +45,8 @@ a:hover {
 h1 {
  margin: 0;
  margin-top: 30px;
-// line-height:100px;
  text-align:center;
  font-family: 'Indie Flower', cursive;
- font-size: 700px;
+ font-size: 700%;
  color: #ffffff; // #a0a4ac;
 }

@@ -1,4 +1,5 @@
 <?php
+// Connect to DB
 session_start();
 $host = "localhost"; /* Host name */
 $user = "root"; /* User */

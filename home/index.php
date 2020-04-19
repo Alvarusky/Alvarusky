@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 include "localhost/config.php";
 session_start();
@@ -11,6 +11,10 @@ if(!isset($_SESSION['uname'])){
 <html>
 <head>
 <title>DemiChanclas</title>
+<<<<<<< HEAD
+=======
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+>>>>>>> 6fff444878688fdd142e88b50141c40b8c5753ef
 <link rel="shortcut icon" href = "/images/logo.png"/>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
@@ -18,19 +22,21 @@ if(!isset($_SESSION['uname'])){
 <link rel = 'stylesheet' href = '/home/home.css'></style>
 </head>
 <header>
+<!-- Title -->
 <a href="index.php" style = "text-decoration: none">
   <img src = '/images/logo.png'>
   <h1>Chancletas Chillonas</h1>
 </a>
+<!-- Navigation Bar -->
 <div id= 'navbar'>
 <a class = 'active' href = 'index.php'>Home</a>
-<a href = '#'>Datalogger</a>
-<a href = '#'>Mediav3</a>
-<a href = '#'>MirabalPass</a>
+<a href = '/alvarusky.github.io'>WorldBook</a>
+<a href = '/bugNotes'>BugNotes</a>
 <a style = 'float:right' href = '/about'>About</a>
 </div>
 
 </header>
+<!-- MirabalPass codes -->
 <body>
   <h1 class="mpass">MirabalPass</h1>
   <div id = 'pass'>
@@ -65,5 +71,5 @@ function stickyNavBar() {
   }
 }
 </script>
-<script type = 'text/javascript' src = '/mirabalPass/mirabalPass.js'></script>
+<script type = 'text/javascript' src = '/bugNotes/mirabalPass.js'></script>
 </html>
