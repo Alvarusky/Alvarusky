@@ -22,7 +22,7 @@ if(isset($_SESSION['uname'])){
 <!-- Navbar -->
 <nav class= 'navbar navbar-expand-md fixed-top navbar-dark bg-dark'>
   <a class= 'navbar-brand' href='#'>
-        <img src= '/images/logo.png' width= '30' height= '30' alt='' loading='lazy'>
+        <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTo$
     <span class="navbar-toggler-icon"></span>

@@ -25,17 +25,17 @@ if(!isset($_SESSION['uname'])){
 <!-- Navigation Bar -->
 <nav class= 'navbar navbar-expand-md fixed-top navbar-dark bg-dark'>
   <a class= 'navbar-brand' href='#'>
-        <img src= '/images/logo.png' width= '30' height= '30' alt='' loading='lazy'>
+        <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
     <div class='navbar-nav mr-auto openSans'>
-      <a class = 'nav-item nav-link mx-3 active' href = 'index.php'>Home</a>
+      <a class = 'nav-item nav-link mx-3 active' href = '/home/'>Home</a>
       <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
       <a class= 'nav-item nav-link mx-2' href = '#'>MirabalPass</a>
-      <a class= 'nav-item nav-link mx-2' href = '#'>CryptoCharts</a>
+      <a class= 'nav-item nav-link mx-2' href = '/cryptoChart/'>CryptoCharts</a>
     </div>
     <div class= 'navbar-nav ml-auto openSans'>
       <a class= 'nav-item nav-link mx-2'  href = '/about'>About</a>
