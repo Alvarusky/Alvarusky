@@ -33,8 +33,8 @@ if(!isset($_SESSION['uname'])){
     <div class='navbar-nav mr-auto openSans'>
       <a class = 'nav-item nav-link mx-3' href = '/home/'>Home</a>
       <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
-      <a class= 'nav-item nav-link mx-2' href = '#'>MirabalPass</a>
-      <a class= 'nav-item nav-link mx-2' href = '/cryptoChart/'>CryptoCharts</a>
+      <a class= 'nav-item nav-link mx-2' href = '/cryptoChart'>CryptoCharts</a>
+      <a class= 'nav-item nav-link mx-2' href = '/how-to'>How To's</a>
     </div>
     <div class= 'navbar-nav ml-auto'> 
       <a class= 'nav-item nav-link mx-2 active openSans'  href = '/about/'>About</a>
@@ -71,6 +71,7 @@ if(!isset($_SESSION['uname'])){
 
 
   <div class='container-fluid mt-5'>
+  <a href='/home/' class='ml-3'><img src='/images/home-blue.svg' onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
   <h1 class='display-2 text-center openSans'>About</h1>
   <hr class= 'my-4 ml-5 mr-5'> 
   <div class= 'container'>
@@ -86,5 +87,16 @@ if(!isset($_SESSION['uname'])){
     </p>
     </div>
   </div>
+
+  <script>
+      function hover(element) {
+        element.setAttribute('src', '/images/home.svg');
+      }
+      function unhover(element) {
+        element.setAttribute('src', '/images/home-blue.svg');
+      }
+
+
+  </script>
 </body>
 </html>
