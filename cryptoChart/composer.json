@@ -1,0 +1,29 @@
+{
+  "name": "cryptocurrencychart/client",
+  "type": "library",
+  "description": "Client library for www.cryptocurrencychart.com API.",
+  "keywords": ["api", "client", "cryptocurrencies", "data"],
+  "homepage": "https://gitlab.com/bastiaangrutters/cryptocurrencychart-api",
+  "license": "MIT",
+  "support": {
+    "issues": "https://gitlab.com/bastiaangrutters/cryptocurrencychart-api/issues",
+    "email": "info@cryptocurrencychart.com"
+  },
+  "authors": [
+    {
+      "name": "CryptoCurrencyChart B.V.",
+      "email": "info@cryptocurrencychart.com",
+      "homepage": "https://www.cryptocurrencychart.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "halfpastfouram/phpchartjs": "^1.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "CryptoCurrencyChart\\": "src/CryptoCurrencyChart/"
+    }
+  }
+}
