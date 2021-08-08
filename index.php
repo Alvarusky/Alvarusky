@@ -11,7 +11,7 @@
   <body>
 
     <!-- Navigation bar -->
-    <nav class= 'main-nav navbar navbar-expand-md navbar-dark ps-2 py-0' style='background-color: #008080 ;'>
+    <nav class= 'main-nav navbar navbar-expand-md navbar-dark ps-2 py-0' style='background-color: #005b96;'>
       <a class= 'navbar-brand' href='#'>
         <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
       </a>
