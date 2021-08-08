@@ -1,0 +1,19 @@
+body, html {
+  font-family: serif !important;
+  background-color: #e6f3f6 !important;
+}
+
+/* custom css for the main nav */
+.main-nav a{
+  color: #e6f3f6 !important;
+}
+.main-nav a:hover{
+  text-decoration: underline;
+}
+
+/* custom text css */
+
+.padded-content{
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
+}
