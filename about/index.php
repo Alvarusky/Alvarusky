@@ -34,6 +34,7 @@
     </nav>
 
     <!-- Main content -->
+    <div class='container mt-4'><a href='../'><< go back</a></div>
     <div class='container-fluid mt-5'>
       <h1 class='display-4 text-center fw-bold mb-5'>About this site</h1>
     </div>
