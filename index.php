@@ -1,6 +1,10 @@
+<?php
+  include('nav.html');
+?>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>alvaro de miguel</title>
+    <title>alvaro de miguel | home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Add CSS and fonts -->
@@ -9,29 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   </head>
   <body>
-
-    <!-- Navigation bar -->
-    <nav class= 'main-nav navbar navbar-expand-md navbar-dark ps-2 py-0' style='background-color: #005b96;'>
-      <a class= 'navbar-brand' href='#'>
-        <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
-        <div class='navbar-nav'>
-          <a class= 'nav-item nav-link mx-2' href = '/home/'>Home</a>
-          <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
-          <a class= 'nav-item nav-link mx-2' href = '/cryptoChart'>CryptoCharts</a>
-          <a class= 'nav-item nav-link mx-2' href = '/how-to/'>How To's</a>
-        </div>
-        <div class= 'navbar-nav ms-auto'>
-          <a class= 'nav-item nav-link mx-2'  href = '/about'>About</a>
-          <span class= 'navbar-text mx-2'>|</span>
-          <a class= 'nav-item nav-link mx-2' href= '#' data-toggle='modal' data-target= '#logoutModal'>Log In</a>
-        </div>
-      </div>
-    </nav>
 
     <!-- Main content -->
     <div class='container-fluid mt-5'>

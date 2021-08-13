@@ -1,7 +1,10 @@
+<?php
+  include('../../../nav.html');
+?>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>cryptocharts | alvaro de miguel</title>
+    <title>alvaro de miguel | crypto charts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel= 'stylesheet' href= '/fonts.css'>
@@ -10,31 +13,8 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
-    <nav class= 'main-nav navbar navbar-expand-md navbar-dark ps-2 py-0' style='background-color: #005b96;'>
-      <a class= 'navbar-brand' href='#'>
-        <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
-        <div class='navbar-nav'>
-          <a class= 'nav-item nav-link mx-2' href = '/home/'>Home</a>
-          <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
-          <a class= 'nav-item nav-link mx-2' href = '/cryptoChart'>CryptoCharts</a>
-          <a class= 'nav-item nav-link mx-2' href = '/how-to/'>How To's</a>
-        </div>
-        <div class= 'navbar-nav ms-auto'>
-          <a class= 'nav-item nav-link mx-2'  href = '/about'>About</a>
-          <span class= 'navbar-text mx-2'>|</span>
-          <a class= 'nav-item nav-link mx-2' href= '#' data-toggle='modal' data-target= '#logoutModal'>Log In</a>
-        </div>
-      </div>
-    </nav>
-
     <!-- main content -->
-    <div class='container mt-4'><a href='../'><< go back</a></div>
+    <div class='container mt-4'><a href='/'><< </a>/<a href='/hobbies/'>hobbies</a>/  <a href='../'>blockchain&crypto</a>/<a href='./'>cryptoCharts</a>/</div>
     <div class='container-fluid mt-5'>
       <h1 class='display-4 text-center fw-bold mb-5'>cryptocharts</h1>
     </div>
@@ -82,7 +62,7 @@
         <b>CoinGecko:</b> To get the coin prices, they have a really useful api. url: <a href='https://www.coingecko.com/en/api'>https://www.coingecko.com/en/api</a>
     </p>
     </div>
-    <div class='container my-4'><a href='../'><< go back</a></div>
+    <div class='container my-4'><a href='../'><a href='/'><< </a>/<a href='../'>blockchain&crypto</a>/<a href='./'>cryptoCharts</a>/</div>
 
     <!-- chart scripts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3/dist/chart.min.js"></script>

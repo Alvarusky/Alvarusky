@@ -1,6 +1,10 @@
+<?php
+  include('../nav.html');
+?>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>DemiChanclas</title>
+    <title>alvaro de miguel | about</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Add CSS and fonts -->
@@ -10,31 +14,8 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
-    <nav class= 'main-nav navbar navbar-expand-md navbar-dark ps-2 py-0' style='background-color: #005b96;'>
-      <a class= 'navbar-brand' href='#'>
-        <img src= '/images/logo.jpeg' width= '30' height= '30' alt='' loading='lazy'>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
-        <div class='navbar-nav'>
-          <a class= 'nav-item nav-link mx-2' href = '/'>Home</a>
-          <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
-          <a class= 'nav-item nav-link mx-2' href = '/cryptoChart'>CryptoCharts</a>
-          <a class= 'nav-item nav-link mx-2' href = '/how-to/'>How To's</a>
-        </div>
-        <div class= 'navbar-nav ms-auto'>
-          <a class= 'nav-item nav-link mx-2'  href = '/about'>About</a>
-          <span class= 'navbar-text mx-2'>|</span>
-          <a class= 'nav-item nav-link mx-2' href= '#' data-toggle='modal' data-target= '#logoutModal'>Log In</a>
-        </div>
-      </div>
-    </nav>
-
     <!-- Main content -->
-    <div class='container mt-4'><a href='../'><< go back</a></div>
+    <div class='container mt-4'><a href='../'><< </a>/<a href='./'>about</a></div>
     <div class='container-fluid mt-5'>
       <h1 class='display-4 text-center fw-bold mb-5'>About this site</h1>
     </div>
