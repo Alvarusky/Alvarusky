@@ -1,12 +1,3 @@
-  <?php
-
-include "/config.php";
-session_start();
-// Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: /login.php');
-}
- ?>
 <!doctype html>
 <html>
   <head>
@@ -33,9 +24,9 @@ if(!isset($_SESSION['uname'])){
         </button>
         <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
           <div class='navbar-nav mr-auto openSans'>
-            <a class = 'nav-item nav-link mx-3' href = '/home/'>Home</a>
-            <a class= 'nav-item nav-link mx-2' href = '/dht11'>DHT11-T&H</a>
-            <a class= 'nav-item nav-link mx-2' href = '/cryptoChart'>CryptoCharts</a>
+            <a class = 'nav-item nav-link mx-3' href = '/'>Home</a>
+            <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
+            <a class= 'nav-item nav-link mx-2' href = '#'>CryptoCharts</a>
             <a class= 'nav-item nav-link mx-2 active' href = '#'>How To's</a>
           </div>
           <div class= 'navbar-nav ml-auto openSans'>
@@ -62,7 +53,7 @@ if(!isset($_SESSION['uname'])){
             </div>
           <div class= 'modal-footer openSans'>
             <button type= 'button' class= 'btn btn-outline-secondary' data-dismiss= 'modal'>Cancel</button>
-            <button type= 'button' class= 'btn btn-light' onclick= 'window.location="/logout.php"'>Log Out</button>
+            <button type= 'button' class= 'btn btn-light' onclick= 'window.location="/"'>Log Out</button>
           </div>
         </div>
       </div>

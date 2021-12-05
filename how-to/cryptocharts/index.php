@@ -1,12 +1,3 @@
-<?php
-include "/config.php";
-session_start();
-// Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: /login.php');
-}
-
-?>
 <!doctype html>
 <html>
   <head>
@@ -31,10 +22,10 @@ if(!isset($_SESSION['uname'])){
       </button>
       <div class= 'collapse navbar-collapse' id= 'navbarTogglerDemo02'>
         <div class='navbar-nav mr-auto openSans'>
-          <a class = 'nav-item nav-link mx-3 active' href = '/home/'>Home</a>
-          <a class= 'nav-item nav-link mx-2' href = '/dht11'>DHT11-T&H</a>
+          <a class = 'nav-item nav-link mx-3 active' href = '/'>Home</a>
+          <a class= 'nav-item nav-link mx-2' href = '#'>DHT11-T&H</a>
           <a class= 'nav-item nav-link mx-2' href = '#'>MirabalPass</a>
-          <a class= 'nav-item nav-link mx-2' href = '/cryptoChart/'>CryptoCharts</a>
+          <a class= 'nav-item nav-link mx-2' href = '#'>CryptoCharts</a>
         </div>
         <div class= 'navbar-nav ml-auto openSans'>
           <a class= 'nav-item nav-link mx-2'  href = '/about'>About</a>
