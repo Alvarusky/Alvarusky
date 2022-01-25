@@ -44,7 +44,7 @@
 
       <div class= 'row justify-content-evenly mt-5'>
         <div class= 'col-4'>
-          <img class= 'img-fluid' src= '/images/admfotos/trip-to-oxford.jpg' />
+          <img class= 'img-fluid' src= '/images/admfotos/trip-to-oxford.JPG' />
           <p class= 'text-center'>
             trip to oxford, summer 2021.
           </p>
