@@ -19,10 +19,13 @@
       <h1 class='display-4 text-center fw-bold mb-5'>cryptocharts</h1>
     </div>
 
-    <div class='container py-5 padded-content'>
-      <p> Some pretty basic charts of some of my favourite cryptocurrencies. On the y-axis it's displayed the price of the coin, and in the x-axis, the date on which that price was recorded.
+    <div class= 'container-fluid'>
+      <div class='row justify-content-center py-5'>
+        <div class= 'col-8'>
+          <p> Some pretty basic charts of some of my favourite cryptocurrencies. On the y-axis it's displayed the price of the coin, and in the x-axis, the date on which that price was recorded.
+        </div>
+      </div>
     </div>
-
     <!-- chart container -->
     <div class='container px-2'>
       <div class='row py-5'>
@@ -51,16 +54,20 @@
       </div>
     </div>
 
-    <div class='container my-5 padded-content'><hr></div>
+    <div class='container my-5'><hr></div>
 
-    <div class='container my-5 padded-content'>
-      <p>Third party software used in the making of this chart:
-        <br>
-        <br>
-        <b>ChartJS:</b> An open-source javascript library that makes charts, url: <a href='https://chartjs.org'>https://chartsjs.org</a>
-        <br>
-        <b>CoinGecko:</b> To get the coin prices, they have a really useful api. url: <a href='https://www.coingecko.com/en/api'>https://www.coingecko.com/en/api</a>
-    </p>
+    <div class= 'container-fluid'>
+      <div class='row justify-content-center my-5'>
+        <div class= 'col-8'>
+          <p>Third party software used in the making of this chart:
+            <br>
+            <br>
+            <b>ChartJS:</b> An open-source javascript library that makes charts, url: <a href='https://chartjs.org'>https://chartsjs.org</a>
+            <br>
+            <b>CoinGecko:</b> To get the coin prices, they have a really useful api. url: <a href='https://www.coingecko.com/en/api'>https://www.coingecko.com/en/api</a>
+          </p>
+        </div>
+      </div>
     </div>
     <div class='container my-4'><a href='../'><a href='/'><< </a>/<a href='../'>blockchain&crypto</a>/<a href='./'>cryptoCharts</a>/</div>
 

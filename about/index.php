@@ -20,18 +20,22 @@
       <h1 class='display-4 text-center fw-bold mb-5'>About this site</h1>
     </div>
 
-      <div class= 'container-fluid pt-5 padded-content'>
-        <p>This website was first created by Alvaro de Miguel (<a href= 'https://twitter.com/_alvarodemiguel' target= 'blank'>@_alvarodemiguel</a>) on March 2019.
-          It's a LAMP server, hosted on a RaspberryPi Zero W, and you can find the source code on
-          <a href = 'https://github.com/Alvarusky/html' target = 'blank'>Github.</a>
-          I built this website cause I wanted to learn how Internet works and host my programs such as "CrytoCharts" or "DHT11-T&H" on the web.
-        </p>
-        <p> I love coding, so I decided to build my personal site.
-          I have other proyects as well, for instance, <a href="https://worldbook.ddns.net/" target= "blank">WorldBook</a>
-          which is an iniciative aimed at making books and knowledge available everywhere in the world.
-          At this time (10/6/2020) I'm only 16, so I've got no higher education, however I'm planning to take a double major in physics and math in Madrid.
-        </p>
+    <div class= 'container-fluid'>
+      <div class= 'row justify-content-center pt-5'>
+        <div class= 'col-8'>
+          <p>This website was first created by Alvaro de Miguel (<a href= 'https://twitter.com/_alvarodemiguel' target= 'blank'>@_alvarodemiguel</a>) on March 2019.
+            It's a LAMP server, hosted on a RaspberryPi Zero W, and you can find the source code on
+            <a href = 'https://github.com/Alvarusky/html' target = 'blank'>Github.</a>
+            I built this website cause I wanted to learn how Internet works and host my programs such as "CrytoCharts" or "DHT11-T&H" on the web.
+          </p>
+          <p> I love coding, so I decided to build my personal site.
+            I have other proyects as well, for instance, <a href="https://worldbook.ddns.net/" target= "blank">WorldBook</a>
+            which is an iniciative aimed at making books and knowledge available everywhere in the world.
+            At this time (10/6/2020) I'm only 16, so I've got no higher education, however I'm planning to take a double major in physics and math in Madrid.
+          </p>
+        </div>
       </div>
+    </div>
 
 
   </body>

@@ -11,9 +11,3 @@ body, html {
   text-decoration: underline;
 }
 
-/* custom text css */
-
-.padded-content{
-  padding-left: 10rem !important;
-  padding-right: 10rem !important;
-}
