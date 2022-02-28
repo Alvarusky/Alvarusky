@@ -32,87 +32,84 @@
     </div>
 
     <div class= 'container'>
-    <div class= 'row justify-content-evenly mt-5'>
+
+      <div class= 'row justify-content-evenly'>
+        <div class= 'col-md-6 col-sm'>
+          <figure class="figure">
+            <img src="/images/admfotos/was_it_the_sky.jpg" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption"><cite title="Source Title">Was it the sky?</figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img src="/images/admfotos/boy_reading.JPG" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption"><cite title="Source Title">"Boy, reading". Artwork by ines de miguel.</figcaption>
+          </figure>
+
+          <figure class="figure mt-5">
+              <img src="/images/admfotos/mountain.png" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption"><cite title="Source Title">
+              Para ser tan vieja, albergas tanta vida…
+              Adiós, feliz montaña.
+                [Pirineos]
+              </figcaption>
+          </figure>
+        </div>
+
         <div class= 'col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/was_it_the_sky.jpg' />
-          <p class= 'text-center'> Was it the sky?</p>
-        </div>
+        <figure class="figure">
+            <img src="/images/admfotos/your_home.JPG" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption"><cite title="Source Title">Your home knocked my door.</figcaption>
+          </figure>
 
-        <div class='col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/your_home.JPG' />
-          <p class= 'text-center'>Your home knocked my door.</p>
-        </div>
-      </div>
-
-      <div class= 'row justify-content-evenly mt-5'>
-        <div class= 'col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/boy_reading.JPG' />
-          <p class= 'text-center'> "Boy, reading". Artwork by ines de miguel. </p>
-        </div>
-
-        <div class='col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/Connection.JPG' />
-          <p class= 'text-center'> 
-            Conexión, def:
+          <figure class="figure mt-5">
+            <img src="/images/admfotos/connection.JPG" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption"><cite title="Source Title">
+              Conexión, def:
               <br />
               1. f. Acción y efecto de conectar.
               2. f. Punto donde se realiza el enlace entre aparatos o sistemas.
-          </p>
+            </figcaption>
+          </figure>
+
+          <figure class="figure mt-5">
+            <img src="/images/admfotos/Trip-to-oxford.JPG" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption"><cite title="Source Title">trip to oxford. summer 2021</figcaption>
+          </figure>
+
+          <figure class="figure mt-5">
+              <img src="/images/admfotos/dingle_beach.jpg" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption"><cite title="Source Title">Nature is not a place to visit, it's our home ~ Gary Snyder.</figcaption>
+          </figure>
+
         </div>
       </div>
 
-      <div class= 'row justify-content-evenly mt-5'>
+      <div class= 'row justify-content-evenly'>
         <div class= 'col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/Trip-to-oxford.JPG' />
-          <p class= 'text-center'>
-            trip to oxford, summer 2021.
-          </p>
-        </div>
 
-        <div class='col-md-4 col-sm'>
-          <img class='img-fluid' src= '/images/admfotos/parques.jpg' />
-          <p class='text-center'>
-            parques...
-          </p>
+          <figure class="figure mt-5">
+              <img src="/images/admfotos/parques.jpg" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption"><cite title="Source Title">un parque <br /> Y un amigo al que llamar</figcaption>
+            </figure>
+
+            <figure class="figure mt-5">
+              <img src="/images/admfotos/simon_verde.jpg" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption"><cite title="Source Title">a myriad of green tones in a simon verde garden.</figcaption>
+            </figure>
+
+        </div>
+        
+        <div class= 'col-md-6 col-sm'>
+          <figure class="figure mt-5">
+              <img src="/images/admfotos/backpack_traveller.JPG" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption"><cite title="Source Title">backpack traveller talking to a homeless woman.</figcaption>
+          </figure>
         </div>
       </div>
 
-      <div class= 'row justify-content-evenly mt-5'>
-        <div class= 'col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/backpack_traveller.JPG' />
-          <p class= 'text-center'>
-            backpack traveller talking to a homeless woman.
-          </p>
-        </div>
-
-        <div class='col-md-4 col-sm'>
-          <img class='img-fluid' src= '/images/admfotos/dingle_beach.jpg' />
-          <p class='text-center'>
-          Nature is not a place to visit, it's our home. ~Gary Snyder
-          </p>
-        </div>
-      </div>
-
-      <div class= 'row justify-content-evenly mt-5'>
-        <div class= 'col-md-4 col-sm'>
-          <img class= 'img-fluid' src= '/images/admfotos/mountain.png' />
-          <p class= 'text-center'>
-          Para ser tan vieja, albergas tanta vida…
-          Adiós, feliz montaña.
-            [Pirineos]
-          </p>
-        </div>
-
-        <div class='col-md-4 col-sm'>
-          <img class='img-fluid' src= '/images/admfotos/simon_verde.jpg' />
-          <p class='text-center'>
-          a myriad of green tones in a simon verde garden.
-          </p>
-        </div>
-      </div>
     </div>
 
-    <div class='container mt-4'><a href='/'><< </a>/<a href='/hobbies'>hobbies</a>/<a href='./'>photography</a>/</div>
+    <div class='container my-4'><a href='/'><< </a>/<a href='/hobbies'>hobbies</a>/<a href='./'>photography</a>/</div>
 
   </body>
 </html>

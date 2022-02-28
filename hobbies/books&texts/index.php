@@ -90,13 +90,11 @@
                 <div class= 'col-6'>
                     <div class= 'card '>
                         <div class='card-body'> 
-                            <p> Como he dicho, Queca sabe escuchar y además consigue -quizá sin proponérselo- que el alumno
-                                crezca en conocimiento propio. Recuerdo una frase que me dijo un día y que me dejó completa
-                                mente noqueado: "nadie da lo que no tiene y, si tú no 'te tienes a ti mismo' no podrás darte 
-                                a los demás". Me quedó bien claro que el autoconocimiento nos permite abrirnos a los demás para
-                                quererlos. Y, en esto, ella siempre ha ido por delante predicando con su ejemplo. </p>
+                            <p> "I am not sure that I exist, actually. I am all the writers that I have read, all the people that I have met, 
+                                all the women that I have loved; all the cities I have visited."
+                            </p>
                                 <br />
-                            <footer class="blockquote-footer">Chema Molina in <cite title="Source Title">La amiga de las nubes, Un belén como otro cualquiera.</cite></footer>
+                            <footer class="blockquote-footer">Jorge Luis Borges<cite title="Source Title">.</cite></footer>
                         </div>
                     </div>
                 </div>
