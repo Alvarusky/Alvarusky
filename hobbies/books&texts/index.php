@@ -117,7 +117,7 @@
             </div>
             
             <figure class="figure">
-                <img src="/images/quotes/meetings_with_strangers.jpg" class="figure-img img-fluid rounded">
+                <img src="/images/quotes/meetings_with_strangers.JPG" class="figure-img img-fluid rounded">
                 <figcaption class="figure-caption">Dostoyevsky, <cite title="Source Title">Crime and punishment.</cite></figcaption>
             </figure>
 
