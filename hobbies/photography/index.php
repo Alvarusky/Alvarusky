@@ -62,7 +62,7 @@
           </figure>
 
           <figure class="figure mt-5">
-            <img src="/images/admfotos/connection.JPG" class="figure-img img-fluid rounded">
+            <img src="/images/admfotos/Connection.JPG" class="figure-img img-fluid rounded">
             <figcaption class="figure-caption"><cite title="Source Title">
               Conexión, def:
               <br />
