@@ -60,7 +60,7 @@
                 <li class='list-group-item'>How to win friends and influence people - Dale Carneige. <p><a href='notes/'>notes</p></a></li>
                 <li class='list-group-item'>Life 3.0 - Max Tegmark. <p><a href='notes/'>notes</p></a></li>
                 <li class='list-group-item'>*El escándalo - P.A. Alarcón.</li>
-                <li class='list-group-item'>La dama de blanco - Wilkie Collins.</li>
+                <li class='list-group-item'>*La dama de blanco - Wilkie Collins.</li>
                 <li class='list-group-item'>Outliers - Malcom Gladwell. <p><a href='notes'>notes</p></a></li>
             </ul>
             <br />
