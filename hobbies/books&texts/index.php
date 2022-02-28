@@ -42,6 +42,7 @@
                 <li class='list-group-item'>The alquemist - Paulo Coelho.</li>
                 <li class='list-group-item'>On the shortness of life - Seneca. <p><a href='notes/'>notes</p></a></li>
                 <li class='list-group-item'>The waves - Virginia Woolf.</li>
+                <li class='list-group-item'>*A guide to the good life - William B. Irvine. <p><a href='notes/'>notes</p></a></li>
                 <li class='list-group-item'>Los hermanos Karamázov - Dostoyevsky.</li>
                 <li class='list-group-item'>*La vida sale al encuentro - Martín Vigil.</li>
                 <li class='list-group-item'>*El hombre en busca del sentido - Viktor E. Frankl.</li>
