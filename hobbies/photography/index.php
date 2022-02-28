@@ -24,12 +24,26 @@
     <div class='container-fluid'>
       <div class= 'row justify-content-center py-5'>
         <div class= 'col-8'>
-          <p> These are some pictures that i've made. For the full collection and my latest photos you can visit my instagram's account: <a href='https://www.instagram.com/ad.mfotos/'> @ad.mfotos </a>
+          <p> These are some pictures that i've made. For the full collection and my latest photos you can visit my instagram's account: <a href='https://www.instagram.com/ad.mfotos/'> @ad.mfotos </a>.
+              Though some of these were taken with my iphone, i rather shooting on film.
+          </p>
         </div>
       </div>
     </div>
 
     <div class= 'container'>
+    <div class= 'row justify-content-evenly mt-5'>
+        <div class= 'col-md-4 col-sm'>
+          <img class= 'img-fluid' src= '/images/admfotos/was_it_the_sky.jpg' />
+          <p class= 'text-center'> Was it the sky?</p>
+        </div>
+
+        <div class='col-md-4 col-sm'>
+          <img class= 'img-fluid' src= '/images/admfotos/your_home.JPG' />
+          <p class= 'text-center'>Your home knocked my door.</p>
+        </div>
+      </div>
+
       <div class= 'row justify-content-evenly mt-5'>
         <div class= 'col-md-4 col-sm'>
           <img class= 'img-fluid' src= '/images/admfotos/boy_reading.JPG' />

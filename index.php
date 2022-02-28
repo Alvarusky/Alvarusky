@@ -55,7 +55,7 @@
 
 
           <div class='d-flex justify-content-around mt-5'>
-            <a href='/hobbies'>go to hobbies</a>
+            <a href='/hobbies'>go to hobbies index</a>
             <a href='/how-to'>go to how to's</a>
           </div>
         </div>
