@@ -67,7 +67,7 @@
           <br>
             After that, I just had to get the data from my own database and make the chart. And after 
             some syntax issues with PHP, the charts were made and the cron job running.</p>
-          <p>You can see the results in the <a href='/cryptoChart/' >CryptoCharts</a> page.</p>
+          <p>You can see the results in the <a href='/hobbies/blockchain&crypto/cryptoCharts/' >CryptoCharts</a> page.</p>
         </div>
       </div>
 

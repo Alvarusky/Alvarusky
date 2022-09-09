@@ -46,7 +46,7 @@
           <br>
           <p> You can contact me through social media (which i check out almost every day) or email:
             <br>
-            instagram: <a href='https://www.instagram.com/alvarodemiguel3/'>@alvarodemiguel0</a>
+            instagram: <a href='https://www.instagram.com/alvarodemiguel0/'>@alvarodemiguel0</a>
             <br>
             twitter: <a href='https://twitter.com/_alvarodemiguel'>@_alvarodemiguel</a>
             <br>

@@ -26,6 +26,7 @@
           <p> How to make some of my projects! i'll show you in these posts.
             <ul class='list-group list-group-flush'>
               <li class= 'list-group-item'><a href='cryptocharts'> Making cryptocurrency charts </a></li>
+              <li class= 'list-group-item'><a href='onphotography'> On Photography </a></li>
             </ul> 
         </div>
       </div>
