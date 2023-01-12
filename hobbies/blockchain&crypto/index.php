@@ -15,7 +15,17 @@
   <body>
 
     <div class='container mt-4'><a href='/'><< </a>/<a href='../'>hobbies</a>/<a href='./'>blockchain&crypto</a>/</div>
+    <div class='container-fluid mt-5'>
+      <h1 class='display-4 text-center fw-bold mb-5'>blockchain & crypto</h1>
+    </div>
 
+    <div class= 'container-fluid'>
+      <div class= 'row justify-content-center pt-5'>
+        <div class= 'col-8'>
+          <p>In this space i will be, in the futurre, uploading articles i find interesting or anything related to crypto.</p>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

@@ -1,6 +1,14 @@
-<?php 
-    header('Location: /hobbies/books&texts/');
-
-//  or die()
-    exit();
+<?php
+  include('../../../nav.html');
 ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>alvaro de miguel | notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Add CSS and fonts -->
+    <link rel= 'stylesheet' href= '/fonts.css'>
+    <link rel = 'stylesheet' href = '/home.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
