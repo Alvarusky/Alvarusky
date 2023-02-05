@@ -28,10 +28,9 @@
         <div class= 'col-8'>
 
           <p class='fw-bold'> I </p>
-          <p> Dont buy a new camera if you dont have one yet, cause cameras only capture what you already had pictured
-              -in your mind- as a photograph.  Instead, go out and try to make "mind pictures", as i like to call them.
-              "Mind pictures" are much easier to "take" cause you actually dont need to do anything but imagine you took a photo.
-              This way you will learn about composures and light pretty fast. 
+          <p> If you are just starting to shoot photography, you don't need a good camera. The one on your phone 
+              will be fine! The key point here is to get comfortable with it and start developing a "photographer's eye".
+              Moreover, i would insist that you take a ton of photos. Seriusly, i can't stress this enough. Practice makes perfection.
 
               <br>
               <br>
@@ -42,7 +41,7 @@
               <br>
               <br>
 
-              PD: when you actually get a camera it's a good practice to keep taking mind pictures.
+              PD: when you actually get a camera it's a good practice to keep taking pictures with your phone, cause you won't always have your camera on you.
           </p>
           <p class='fw-bold'> II </p>
           <p> Note: Although you should specialize in what you like to photograph, don't over-specialize nor specialize in 
