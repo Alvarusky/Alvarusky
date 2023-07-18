@@ -26,8 +26,21 @@
             <p> Books and texts i've read and liked are here listed. 
                 Some of my favourite passages also appear at the bottom.  
             </p>
+            <p class='fw-bold'> 2023: </p>
+            <ul class='list-group list-group-flush'>
+                <li class='list-group-item'> Los ojos del hermano eterno - Stefan Zweig. </li>
+                <li class='list-group-item'> Diario - Anne Frank. </li>
+                <li class='list-group-item'> El Aleph - Borges. </li>
+                <li class='list-group-item'> The old man and the sea - Ernest Hemingway. </li>
+                <li class='list-group-item'> The count of Monte Cristo - Alexandre Dumas. </li>
+            </ul>
+            <br />
             <p class='fw-bold'> 2022: </p>
             <ul class='list-group list-group-flush'>
+                <li class='list-group-item'> El desierto de los tártaros - Dino Buzzati. </li>
+                <li class='list-group-item'> Introducción a la ética social - Rafa Gómez Pérez. </li>
+                <li class='list-group-item'> Mortal y rosa - Francisco Umbral. </li>
+                <li class='list-group-item'> Libre y salvaje - Nacho Dean. </li>
                 <li class='list-group-item'> Crime and punishment - Fydodor Dostoyevsky. <p><a href='notes/'>notes</p></a> </li>
                 <li class='list-group-item'> El hombre que sabía demasiado - G.K. Chesterton. </li>
                 
