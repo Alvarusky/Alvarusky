@@ -22,7 +22,7 @@
     <div class='container-fluid'>
       <div class='row justify-content-center py-5'>
         <div class= 'col-8'>
-          <p class='h2'>- Presentation:</p>
+          <p class='h2'>Presentation:</p>
           <br>
           <p>Welcome to my page guys, my name is alvaro, and this is the site where i host all my fun proyects, and maybe some thoughts i might have. Books, music, rocket science - all examples of stuff that i'm interested in.
             The list goes on and on, and it even grows a bit from time to time. So don't be surprised to find new sections once in a while.
@@ -33,7 +33,7 @@
           <br>
           <br>
 
-          <p class='h2'>- Purpose:</p>
+          <p class='h2'>Purpose:</p>
           <br>
           <p> The purpose of this webpage isn't to be pretty (i mean just look at it) or to get thousands of views. It's more of a me to myself thing. Needless to say that other people are more than welcome to read my posts
             and follow the progress i make on my proyects. Also, don't hesitate to contact me if you see any errors, or if you think you can contribute to a proyect.
@@ -42,7 +42,7 @@
           <br>
           <br>
 
-          <p class='h2'>- Contact:</p>
+          <p class='h2'>Contact:</p>
           <br>
           <p> You can contact me through social media (which i check out almost every day) or email:
             <br>
