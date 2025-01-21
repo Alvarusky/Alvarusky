@@ -26,8 +26,21 @@
             <p> Books and texts i've read and liked are here listed. 
                 Some of my favourite passages also appear at the bottom.  
             </p>
+            <p class='fw-bold'> 2024: </p>
+            <ul class='list-group list-group-flush'>
+                <li class='list-group-item'> Las etapas de la vida - Romano Guardini. </li>
+                <li class='list-group-item'> Cartas a un joven poeta - Rilke. </li>
+                <li class='list-group-item'> La esfera y la cruz - Chesterton. </li>
+                <li class='list-group-item'> Nada - Carmen Laforet. </li>
+            </ul>
+            <br />
             <p class='fw-bold'> 2023: </p>
             <ul class='list-group list-group-flush'>
+                <li class='list-group-item'> Edad Prohibida - T. Luca de Tena. </li>
+                <li class='list-group-item'> Leyendas - G. A. Bécquer. </li>
+                <li class='list-group-item'> Marianela - Benito Pérez-Galdós. </li>
+                <li class='list-group-item'> Of Mice and Men - John Steinbeck. </li>
+                <li class='list-group-item'> La dama del alba - A. Casona. </li>
                 <li class='list-group-item'> Los ojos del hermano eterno - Stefan Zweig. </li>
                 <li class='list-group-item'> Diario - Anne Frank. </li>
                 <li class='list-group-item'> El Aleph - Borges. </li>

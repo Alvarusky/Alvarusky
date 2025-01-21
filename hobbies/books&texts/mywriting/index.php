@@ -22,12 +22,7 @@
     <div class= 'container-fluid'>
       <div class= 'row justify-content-center pt-5'>
         <div class= 'col-8'>
-            <p> I've been, for the last few years, driven to write 
-                by an almost unstoppable passion for literature. It makes me feel human
-                again. And I wanted to post them here. Unfortunately for you, dear english speaker, I haven't written 
-                anything in english worthy of being published. 
-                I find spanish considerably prettier, and more musical, than english (it may also 
-                be that spanish is my mother tonge). Enjoy!  
+            <p> I've recently started to write short stories, or thoughts, that i find crossing my mind from time to time.  
             </p>
             <br />
             <ul class='list-group list-group-flush'>
